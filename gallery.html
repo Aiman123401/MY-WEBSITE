@@ -1,0 +1,145 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Aiman Rafiq | Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+<canvas id="stars"></canvas>
+
+<header class="navbar">
+  <h2 class="logo">AimanR.</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="skills.html">Skills</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <section id="gallery">
+   <h2 class="section-title"><i class="fas fa-home"></i> My Gallery</h2>
+    <p>
+     A collection of life’s special moments that represents myself, my family, and someone who means the world to me.
+    </p>
+
+
+	<h3 class="section-title">Myself</h3>
+    <div class="gallery-grid">
+  <div class="gallery-item">
+    <img src="images/me1.jpg" alt="Me 1">
+    <div class="overlay">Myself</div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/me2.jpg" alt="Me 2">
+    <div class="overlay">Myself</div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/me3.jpg" alt="Me 3">
+    <div class="overlay">Myself</div>
+  </div>
+</div>
+    
+    <h3 class="section-title">My Family</h3>
+<div class="gallery-grid">
+  <div class="gallery-item">
+    <img src="images/family1.jpg" alt="Family 1">
+    <div class="overlay">My Family</div>
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/family2.jpg" alt="Family 2">
+    <div class="overlay">My Family</div>
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/family3.jpg" alt="Family 3">
+    <div class="overlay">My Family</div>
+  </div>
+
+</div>
+
+    <h3 class="section-title">My Favourite Person</h3>
+    <div class="gallery-grid">
+    <div class="gallery-item">
+    <img src="images/fav1.jpg" alt="Favourite Person 1">
+    <div class="overlay">Favourite Person</div>
+   </div>
+   <div class="gallery-item">
+    <img src="images/fav2.jpg" alt="Favourite Person 2">
+    <div class="overlay">Favourite Person</div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/fav3.jpg" alt="Favourite Person 3">
+    <div class="overlay">Favourite Person</div>
+  </div>
+
+</div>
+
+    <div class="video-section">
+  <h3>Memories With My Favourite Person</h3>
+  <p>A short video capturing unforgettable moments.</p>
+
+  <video controls poster="images/video-cover.jpg">
+    <source src="videos/memories.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+  </section>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>Aiman Rafiq</h3>
+      <p>Information Management student passionate about technology, web development, and digital content creation.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="skills.html">Skills</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p><i class="fas fa-envelope"></i> aimanrafiq480@email.com</p>
+      <p><i class="fas fa-map-marker-alt"></i>6C Lorong Semarak Api 2,Ayer Itam 11500,Pulau Pinang,Malaysia</p>
+      <div class="footer-social">
+
+     <a href="https://www.instagram.com/manrlienski?igsh=cGVtdHVkYnBlMDVw" target="_blank" aria-label="Instagram">
+     <i class="fab fa-instagram"></i>
+  </a>
+     <a href="https://www.linkedin.com/in/aiman-rafiq-10031a368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="LinkedIn">
+     <i class="fab fa-linkedin"></i>
+  </a>
+     <a href="https://github.com/Aiman123401" target="_blank" aria-label="GitHub">
+     <i class="fab fa-github"></i>
+  </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Aiman Rafiq. All Rights Reserved.</p>
+  </div>
+</footer>
+<!-- IMAGE MODAL -->
+<div id="imgModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
