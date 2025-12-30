@@ -89,6 +89,8 @@ a {
   background: rgba(0, 242, 255, 0.1);
 }
 
+
+
 .button-main,
 .button-sec {
   display: inline-flex;
@@ -380,7 +382,65 @@ a {
   width: 100%;
   margin-top: 15px;
 }
+.spotify-player {
+  margin-top: 20px;
+  background: linear-gradient(135deg, rgba(0, 242, 255, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%);
+  border: 1px solid rgba(0, 242, 255, 0.3);
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: all 0.3s ease;
+}
 
+.spotify-player:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 242, 255, 0.3);
+}
+
+.song-cover {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.song-info {
+  text-align: center;
+}
+
+.song-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00f2ff;
+  margin-bottom: 5px;
+}
+
+.song-artist {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.spotify-player audio {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.spotify-player audio::-webkit-media-controls-panel {
+  background: rgba(0, 242, 255, 0.1);
+  border-radius: 50px;
+}
+
+.spotify-player audio::-webkit-media-controls-play-button,
+.spotify-player audio::-webkit-media-controls-pause-button {
+  background-color: #00f2ff;
+  border-radius: 50%;
+}
 .detail-card blockquote {
   font-style: italic;
   font-size: 18px;
