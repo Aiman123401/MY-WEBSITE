@@ -1,4 +1,3 @@
-// Hamburger Menu Toggle
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
@@ -9,7 +8,6 @@ if (hamburger && navMenu) {
     document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : 'auto';
   });
 
-  // Close menu when clicking on a link
   document.querySelectorAll('.nav-menu a').forEach(link => {
     link.addEventListener('click', () => {
       hamburger.classList.remove('active');
@@ -18,7 +16,7 @@ if (hamburger && navMenu) {
     });
   });
 
-  // Close menu when clicking outside
+
   document.addEventListener('click', (e) => {
     if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
       hamburger.classList.remove('active');
