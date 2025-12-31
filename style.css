@@ -1313,7 +1313,23 @@ a {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
+  .hamburger {
+	  display:flex;
+  }
+ 
+  .nav-menu {
+	  position: absolute;
+	  top:100%;
+	  left:0;
+	  width:100%;
+	  background: rgba (244,241,232,0,98);
+	  flex-direction: column;
+	  padding: 2rem;
+	  box-shadow: 0 5px 20x rgba (45,80,22,0.2);
+	  display: none;
+  }
+  
   .navbar nav {
     display: none;
   }

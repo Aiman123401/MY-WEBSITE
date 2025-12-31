@@ -185,7 +185,7 @@ if (skillBars.length > 0) {
     skillObserver.observe(bar);
   });
 }
-// Active Navigation Link
+
 const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 document.querySelectorAll('.nav-menu a').forEach(link => {
   if (link.getAttribute('href') === currentPage) {
